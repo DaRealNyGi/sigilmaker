@@ -1,3 +1,8 @@
+<!-- README.md -->
+
+[![CI](https://github.com/DaRealNyGi/sigilmaker/actions/workflows/ci.yml/badge.svg)](https://github.com/DaRealNyGi/sigilmaker/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/sigilmaker)](https://pypi.org/project/sigilmaker/)
+
 # SigilMaker
 
 Generate custom sacred-geometry sigils from mantras—via CLI, GUI, or as an importable Python module.
