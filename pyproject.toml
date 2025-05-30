@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigilmaker"
+version = "0.1.0"
+description = "Generate sacred-geometry sigils from mantras (CLI & GUI)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+dependencies = [
+  "matplotlib",
+  "numpy"
+]
+
+[project.scripts]
+sigilmaker-cli = "sigilmaker.cli:main"
+sigilmaker-gui = "sigilmaker.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sigilmaker", "sigilmaker.*"]

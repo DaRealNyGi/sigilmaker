@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+sigilmaker/__init__.py
+sigilmaker/cli.py
+sigilmaker/core.py
+sigilmaker/gui.py
+sigilmaker/shapes.py
+sigilmaker.egg-info/PKG-INFO
+sigilmaker.egg-info/SOURCES.txt
+sigilmaker.egg-info/dependency_links.txt
+sigilmaker.egg-info/entry_points.txt
+sigilmaker.egg-info/requires.txt
+sigilmaker.egg-info/top_level.txt
+tests/test_core.py

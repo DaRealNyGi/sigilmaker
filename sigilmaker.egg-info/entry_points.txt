@@ -1,0 +1,3 @@
+[console_scripts]
+sigilmaker-cli = sigilmaker.cli:main
+sigilmaker-gui = sigilmaker.gui:main

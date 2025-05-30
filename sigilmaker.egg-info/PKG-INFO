@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: sigilmaker
+Version: 0.1.0
+Summary: Generate sacred-geometry sigils from mantras (CLI & GUI)
+Author-email: Your Name <you@example.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+# SigilMaker
+
+Generate custom sacred-geometry sigils from mantras—via CLI, GUI, or as an importable Python module.
+
+## Features
+
+- Convert any mantra (consonants & digits) into a star-polygon sigil
+- 14+ built-in geometry patterns (Seed-of-Life, Golden Spiral, Koch Snowflake, …)
+- Composite and randomized overlays
+- Radial or upright text placement
+- CLI (`sigilmaker-cli`) and GUI (`sigilmaker-gui`) entry points
+- Batch processing from text files
+- Export to PNG/SVG with embedded mantra metadata
+- Custom color palettes via JSON
+- Plugin-friendly: drop additional `*.py` in `shapes/`
+
+## Installation
+
+```bash
+git clone https://github.com/you/sigilmaker.git
+cd sigilmaker
+pip install -e .
