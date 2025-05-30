@@ -31,11 +31,13 @@ jobs:
 
       - run: pytest --maxfail=1 --disable-warnings -q
 
-      - run: |
+      - name: Build distributions
+        run: |
           pip install build
           python -m build --sdist --wheel
 
-      - uses: actions/upload-artifact@v3
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
         with:
           name: dist-files
           path: dist/*
